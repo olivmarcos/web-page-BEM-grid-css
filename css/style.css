@@ -1,86 +1,86 @@
-            * {
-                padding: 0;
-                margin: 0;
-                box-sizing: border-box;
-                font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
-            }
-            
-            .c-header {
-                height: 3.5rem;
-            }
-            
-            .c-header__title {
-                color: teal;
-            }
-            
-            .c-header__menu {
-                list-style: none;
-            }
-            
-            .c-header__menu__item {
-                margin: 0 1rem 0 1rem;
-                padding: .5rem;
-            }
-            
-            .c-section {
-                height: calc(100vh - 3.5rem);
-                background-image: url('https://images.unsplash.com/photo-1422246654994-34520d5a0340?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80');
-                display: grid;
-                grid-template-columns: repeat(2, 1fr);
-                color: white;
-                padding: 4rem;
-            }
-            
-            .c-section__item:nth-child(1) {
-                max-width: 400px;
-            }
-            
-            .c-section__item:nth-child(2) {
-                text-align: center;
-                color: black;
-                max-width: 20.625rem;
-                background-color: white;
-                padding: 1rem;
-                border-radius: 1.5rem;
-            }
-            
-            .c-section__item>p {
-                font-size: x-large;
-            }
-            
-            .c-section__item>form {
-                max-width: 100%;
-                display: flex;
-                flex-direction: column;
-            }
-            
-            .c-section__form>input {
-                margin: 2rem 0 2rem 0;
-                height: 3rem;
-            }
-            
-            .btn {
-                background-color: teal;
-                color: white;
-                font-size: 1rem;
-                height: 3rem;
-                margin-bottom: 1.5rem;
-                border-radius: 6.25rem;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                padding: 1rem;
-                border: 0;
-            }
-            
-            .u-total-centered-grid {
-                display: grid;
-                place-items: center;
-            }
-            
-            .u-total-centered-flex {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                padding: 0 2rem 0 2rem;
-            }
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.c-header {
+    height: 3.5rem;
+}
+
+.c-header__title {
+    color: teal;
+}
+
+.c-header__menu {
+    list-style: none;
+}
+
+.c-header__menu__item {
+    margin: 0 1rem 0 1rem;
+    padding: .5rem;
+}
+
+.c-section {
+    height: calc(100vh - 3.5rem);
+    background-image: url('https://images.unsplash.com/photo-1422246654994-34520d5a0340?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80');
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+    padding: 4rem;
+}
+
+.c-section__item:nth-child(1) {
+    max-width: 400px;
+}
+
+.c-section__item:nth-child(2) {
+    text-align: center;
+    color: black;
+    max-width: 20.625rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1.5rem;
+}
+
+.c-section__item>p {
+    font-size: x-large;
+}
+
+.c-section__item>form {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.c-section__form>input {
+    margin: 2rem 0 2rem 0;
+    height: 3rem;
+}
+
+.btn {
+    background-color: teal;
+    color: white;
+    font-size: 1rem;
+    height: 3rem;
+    margin-bottom: 1.5rem;
+    border-radius: 6.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 0;
+}
+
+.u-total-centered-grid {
+    display: grid;
+    place-items: center;
+}
+
+.u-total-centered-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem 0 2rem;
+}
